@@ -1,0 +1,54 @@
+.form-data{
+    height: 400px;
+    width: 450px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .form-header{
+        padding: 40px 0 20px 0;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    .input-username{
+        margin: 30px 0 30px 0;
+        display: flex;
+        justify-content: space-evenly;
+        label{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        input{
+            border-radius: 40px;
+            height: 20px;
+            width: 200px;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+    .submit-btn{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 40px;
+        margin: 80px auto 0 auto;
+        height: 40px;
+        width: 50%;
+        background-color: #000000;
+        .btn-text{
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+        &.disabled{
+            background-color: #d4d4d4;
+            cursor: auto;
+        }
+    }
+}
